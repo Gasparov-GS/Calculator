@@ -23,6 +23,7 @@ public class Engine {
                 for (int i = 0; i < rome.length; i++) {
                     if (rome[i].equals(str2)) arg2 = arab[i];
                 }
+                if (arg1 == 0 || arg2 == 0) return result;
                 result = arg1 + arg2;
                 isArab = false;
             } else if (data.contains("-")) {
@@ -34,6 +35,7 @@ public class Engine {
                 for (int i = 0; i < rome.length; i++) {
                     if (rome[i].equals(str2)) arg2 = arab[i];
                 }
+                if (arg1 == 0 || arg2 == 0) return result;
                 result = arg1 - arg2;
                 isArab = false;
             } else if (data.contains("*")) {
@@ -57,6 +59,7 @@ public class Engine {
                 for (int i = 0; i < rome.length; i++) {
                     if (rome[i].equals(str2)) arg2 = arab[i];
                 }
+                if (arg1 == 0 || arg2 == 0) return result;
                 result = arg1 / arg2;
                 isArab = false;
             }

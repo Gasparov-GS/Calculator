@@ -1,7 +1,7 @@
 public class ConverArabToRoma {
 
-    static int[] numbers = {1, 4, 5, 9, 10, 50, 100};
-    static String[] letters = { "I", "IV", "V", "IX", "X", "L", "C"};
+    static int[] numbers = {1, 4, 5, 9, 10, 50, 100, 500, 1000};
+    static String[] letters = { "I", "IV", "V", "IX", "X", "L", "C", "D", "M"};
 
     public static String convertIntegerToRoman(int number) {
 
